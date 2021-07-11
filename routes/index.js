@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
     name:"samsung",
     category:"mobile",
     discription:"good phone",
-    Image :"https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-5g-r1.jpg"
+    image :"https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-5g-r1.jpg"
     
 
   },
@@ -16,7 +16,7 @@ router.get('/', function(req, res, next) {
     name:"oppo",
     category:"mobile",
     discription:"good phone",
-    Image :"https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-5g-r1.jpg"
+    image :"https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-5g-r1.jpg"
     
 
   },
@@ -24,20 +24,20 @@ router.get('/', function(req, res, next) {
     name:"iphone",
     category:"mobile",
     discription:"good phone",
-    Image :"https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-5g-r1.jpg"
+    image :"https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-5g-r1.jpg"
     
 
   },{
     name:"lenova",
     category:"mobile",
     discription:"good phone",
-    Image :"https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-5g-r1.jpg"
+    image :"https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-5g-r1.jpg"
     
 
   }
   
   ]
-  res.render('index', { products});
+  res.render('index', {products});
 });
 
 module.exports = router;
